@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.robertboehnke.alfred.fantastical</string>
+	<key>connections</key>
+	<dict>
+		<key>DEBBA624-A11B-45E1-B014-A5C5434DBCE8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>77072C79-C627-4554-ACE9-C6FA55473C5E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Robert Böhnke</string>
+	<key>description</key>
+	<string>Add Fantastical entries with Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Fantastical</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>cal</string>
+				<key>text</key>
+				<string>Add "{query}" to Fantastical</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DEBBA624-A11B-45E1-B014-A5C5434DBCE8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>tell application "Fantastical" to parse sentence "{query}" </string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>77072C79-C627-4554-ACE9-C6FA55473C5E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>77072C79-C627-4554-ACE9-C6FA55473C5E</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>DEBBA624-A11B-45E1-B014-A5C5434DBCE8</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
