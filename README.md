@@ -9,7 +9,7 @@ A simple [Alfred 2](http://www.alfredapp.com/) workflow to add entries to [Fanta
 
 ## How to install
 
-Clone this repo into `Alfred.alfredpreferences/workflows/Fantastical`, or
+Clone this repo into `~/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/Fantastical`, or
 [download the `.workflow` file from the Releases page](https://github.com/robb/Fantastical-Alfred-Workflow/releases/).
 
 Released under a [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
